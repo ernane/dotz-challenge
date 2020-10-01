@@ -152,4 +152,4 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
 Após aplicar o `terraform` o bucket deverá ser provisionado na `AWS`
 
-![terraform-apply-bucket](https://github.com/ernane/dotz-challenge/blob/develop/assets/images/terraform-apply-bucketpng)
+![terraform-apply-bucket](https://github.com/ernane/dotz-challenge/blob/develop/assets/images/terraform-apply-bucket.png)
