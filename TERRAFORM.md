@@ -1,9 +1,5 @@
 # Terraform
 
-## Demonstração de como subir a infraestrutura necessária para esse desafio
-
-[![asciicast](https://github.com/ernane/dotz-challenge/blob/develop/assets/gifs/terraform.gif)](https://asciinema.org/a/363467)
-
 ## Iniciando o `terraform` com o backend remoto [terraform.io](https://app.terraform.io/)
 
 ```bash
@@ -13,6 +9,14 @@ terraform init
 O comando irá construir a `workspace` para gerenciar as execuções dos `scripts terraform`
 
 ![terraform-init](https://github.com/ernane/dotz-challenge/blob/develop/assets/images/terraform-init.png)
+
+## Subindo infra com Terraform
+
+[![asciicast](https://github.com/ernane/dotz-challenge/blob/develop/assets/gifs/terraform.gif)](https://asciinema.org/a/363467)
+
+## Verificando os principais objetos criados
+
+![aws-console-recursos](https://github.com/ernane/dotz-challenge/blob/develop/assets/gifs/aws-console-recursos.gif))
 
 ## Executando o plano de execução
 
