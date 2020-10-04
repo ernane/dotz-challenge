@@ -1,3 +1,9 @@
+# Componentes
+# - glue_catalog_database
+# - glue_crawler
+# - glue_connection
+# - glue_job
+
 resource "aws_glue_catalog_database" "dotz_catalog_database" {
   name        = "${var.database_name}_raw"
   description = "Database Raw - files CSV"

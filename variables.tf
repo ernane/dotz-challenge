@@ -63,12 +63,6 @@ variable "availability_zone" {
   default     = "us-east-1c"
 }
 
-# variable "security_groups" {
-#   description = "A list of VPC security groups IDs"
-#   type        = list(string)
-#   default     = ["sg-0c205c7ea39e6bc01"]
-# }
-
 variable "subnet" {
   description = "Subnet ID"
   type        = string

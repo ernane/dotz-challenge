@@ -1,3 +1,8 @@
+# Componentes
+# - iam_policy
+# - iam_role
+# - iam_role_policy_attachment
+
 resource "aws_iam_policy" "policy" {
   name        = "AWSGlueServicePolicy-PutAccess"
   path        = "/"

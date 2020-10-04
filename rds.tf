@@ -1,3 +1,8 @@
+# Componentes
+# - db_subnet_group
+# - security_group
+# - db_instance
+
 resource "aws_db_subnet_group" "rds-public-subnet" {
   name       = "rds-public-subnet-group"
   subnet_ids = var.subnet_ids

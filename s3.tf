@@ -1,3 +1,9 @@
+# Componentes
+# - s3_bucket
+# - vpc_endpoint
+# - vpc_endpoint_route_table_association
+# - s3_bucket_object
+
 resource "aws_s3_bucket" "dotz_input" {
   bucket = "dotz-input"
   acl    = "private"
