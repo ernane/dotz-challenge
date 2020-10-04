@@ -1,8 +1,35 @@
 # Dotz Challenge
 
-## Arquitetura implementada
+## Solução Proposta
 
 ![arquitetura](https://github.com/ernane/dotz-challenge/blob/develop/assets/images/arquitetura.png?raw=true)
+
+## Sumário
+
+- [Componentes](#Componentes)
+  - [Glue](#glue)
+
+## Componentes
+
+### Glue
+
+O `AWS Glue` é um serviço de ETL - Extração, transformação e carga totalmente gerenciado que facilita a preparação e o carregamento de dados para análise.
+
+### Pontos Positivos (Glue)
+
+- É integrado com uma grande variedade de serviços da `AWS`
+- Oferece suporte nativo a dados armazenados no `Amazon Aurora` e em todos os outros mecanismos do `Amazon RDS`, no `Amazon Redshift` e no `Amazon S3`
+- Não tem servidor. Não é necessário provisionar ou gerenciar a infraestrutura.
+- Executa tarefas de ETL em um ambiente `Apache Spark` gerenciado com aumento de escala horizontal.
+- Executa o `crawling` de suas fontes de dados, identifica os formatos de dados e sugere esquemas e transformações.
+
+### Amazon Relational Database Service (RDS)
+
+O `Amazon Relational Database Service` (Amazon RDS) facilita a configuração, a operação e a escalabilidade de bancos de dados relacionais na nuvem. Para este cenário foi escolhido utilizar o banco de dados [PostgreSQL](https://www.postgresql.org/)
+
+### Amazon QuickSight
+
+O `Amazon QuickSight` é um serviço de inteligência de negócios rápido e baseado na nuvem que facilita a entrega de `insights` a todos em sua organização.
 
 ## 1 - Upload de arquivos e Crawler
 
