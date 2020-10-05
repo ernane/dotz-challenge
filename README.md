@@ -19,6 +19,7 @@
   5. [Dashboard com o Quicksight](#dashboard-com-o-quicksight)
 - [Provisionamento de Infraestrutura e Serviços](#provisionamento-de-infraestrutura-e-serviços)
 - [Subindo Infraestrutura com Terraform](#subindo-infraestrutura-com-terraform)
+- [Custo da Proposta](#custo-da-proposta)
 - [Passos Futuros](#passos-futuros)
 
 ## Componentes
@@ -96,6 +97,12 @@ Também foi adotado o [Terraform Cloud](https://app.terraform.io/) que é um apl
 |      Provisionando com Terraform   |      Validando Componentes      |
 |:------------------------:|:-------------------------:|
 | ![terraform](https://github.com/ernane/dotz-challenge/blob/develop/assets/gifs/terraform.gif?raw=true) | ![aws-console-recursos](https://github.com/ernane/dotz-challenge/blob/develop/assets/gifs/aws-console-recursos.gif?raw=true) |
+
+## Custo da Proposta
+
+|                                      Resumo de gastos                                       |                                                    Gastos do mês até a data por serviço                                                    |
+|:------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|
+| ![billing-1](https://github.com/ernane/dotz-challenge/blob/develop/assets/images/billing-1.png?raw=true) | ![billing-2](https://github.com/ernane/dotz-challenge/blob/develop/assets/images/billing-2.png?raw=true) |
 
 ## Passos Futuros
 
